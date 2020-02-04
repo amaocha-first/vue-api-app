@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Home</h1>
+    <h1 class="home">Home</h1>
     <div class="feed-container">
       <feed></feed>
     </div>
@@ -20,10 +20,25 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
   display: block;
+}
+
+.home {
+  text-align: center;
+  color: #f38d68;
+}
+
+.feed-container {
+  
+}
+</style>
+
+<style>
+body {
+  font-family: "sans-serif";
 }
 </style>
